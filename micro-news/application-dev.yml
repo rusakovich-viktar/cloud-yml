@@ -9,5 +9,4 @@ cache:
   algorithm: LFU
   capacity: 50
 
-comments-service:
-  url: http://localhost:8082
+
