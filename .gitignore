@@ -43,7 +43,7 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-cloud-yml/.idea
+.idea
 *.iws
 *.iml
 *.ipr
