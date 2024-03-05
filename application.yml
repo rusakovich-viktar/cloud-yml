@@ -10,4 +10,4 @@ jpa:
 springdoc:
   swagger-ui:
     disable-swagger-default-url: true
-    path: /documentation
+    path: /api
