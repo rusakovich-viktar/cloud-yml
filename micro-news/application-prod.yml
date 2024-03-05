@@ -1,5 +1,4 @@
 spring:
-  profiles: prod
   datasource:
     url: jdbc:postgresql://db:5432/prod_db
     username: postgres
@@ -11,3 +10,5 @@ spring:
       host: redis
 comments-service:
   url: micro-comments:8082
+
+test: news prod
