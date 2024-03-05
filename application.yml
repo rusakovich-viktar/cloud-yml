@@ -6,7 +6,9 @@ jpa:
       dialect: org.hibernate.dialect.PostgreSQLDialect
   hibernate:
     ddl-auto: none
-
+spring:
+  jpa:
+    open-in-view: false
 springdoc:
   swagger-ui:
     disable-swagger-default-url: true
