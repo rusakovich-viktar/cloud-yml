@@ -11,3 +11,5 @@ micro-news:
   openapi:
     dev-url: http://localhost:8081
     prod-url: micro-news:8081
+
+test: news
