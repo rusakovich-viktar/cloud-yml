@@ -10,3 +10,5 @@ cache:
   capacity: 50
 comments-service:
   url: http://localhost:8082
+
+test: news dev

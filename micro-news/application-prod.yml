@@ -11,4 +11,4 @@ spring:
 comments-service:
   url: micro-comments:8082
 
-test: news dev
+test: news prod
