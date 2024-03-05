@@ -12,3 +12,6 @@ micro-comments:
     dev-url: http://localhost:8082
     prod-url: micro-comments:8082
 
+news-service:
+  url:
+    http://localhost:8081
