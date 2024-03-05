@@ -4,12 +4,31 @@ spring:
 
 #    active: prod
 
-  application:
-    name: micro-gateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: micro-news
+            uri: http://localhost:8081
+            predicates:
+              - Path=/news/**
+          - id: micro-comments
+            uri: http://localhost:8082
+            predicates:
+              - Path=/comments/**
+          - id: micro-search
+            uri: http://localhost:8083
+            predicates:
+              - Path=/search/**
+
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+server:
+  port: 8080
 
 micro-gateway:
   openapi:
     dev-url: http://localhost:8080
     prod-url: micro-gateway:8080
+

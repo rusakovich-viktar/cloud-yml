@@ -5,11 +5,7 @@ spring:
     password: postgres
   liquibase:
     contexts: prod
-
 cache:
   algorithm: LFU
   capacity: 50
 
-news-service:
-  url:
-    http://localhost:8081

@@ -1,0 +1,11 @@
+spring:
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration
+  cache:
+    type: simple

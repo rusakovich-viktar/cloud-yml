@@ -4,17 +4,6 @@ spring:
 
 #    active: prod
 
-  application:
-    name: micro-comments
-  jpa:
-    properties:
-      hibernate:
-        show-sql: true
-        format_sql: true
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: none
-
 server:
   port: 8082
 
@@ -23,3 +12,6 @@ micro-comments:
     dev-url: http://localhost:8082
     prod-url: micro-comments:8082
 
+news-service:
+  url:
+    http://localhost:8081

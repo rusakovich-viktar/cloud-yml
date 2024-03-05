@@ -11,4 +11,5 @@ micro-news:
     dev-url: http://localhost:8081
     prod-url: micro-news:8081
 
-test: news all
+comments-service:
+  url: http://localhost:8082
