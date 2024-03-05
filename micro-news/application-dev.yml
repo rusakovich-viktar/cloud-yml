@@ -1,5 +1,4 @@
 spring:
-  profiles: dev
   datasource:
     url: jdbc:postgresql://localhost:5432/news_comments
     username: postgres

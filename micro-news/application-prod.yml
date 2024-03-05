@@ -1,5 +1,4 @@
 spring:
-  profiles: prod
   datasource:
     url: jdbc:postgresql://db:5432/prod_db
     username: postgres
