@@ -1,6 +1,7 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/news_comments
+#    url: jdbc:postgresql://localhost:5432/news_comments
+    url: jdbc:postgresql://localhost:5432/prod_db
     username: postgres
     password: postgres
 
